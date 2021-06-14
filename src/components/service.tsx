@@ -8,7 +8,7 @@ export default class Service extends React.Component{
     }
 
     public get(url: string) {
-        axios.get(url);
+        return axios.get(url);
     }
 
 }
